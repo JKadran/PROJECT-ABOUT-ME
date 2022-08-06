@@ -85,3 +85,8 @@ li {
   margin-left: 28px;
   text-align: center;
 }
+
+@media (min-width: 576px)
+ .main-containercontainer, .container-sm {
+    max-width: 540px;
+}
