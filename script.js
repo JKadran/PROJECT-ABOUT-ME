@@ -1,21 +1,18 @@
-window.addEventListener("resize", AutoScale); //Масштабируем страницу при растягивании окна
+window.addEventListener("resize", AutoScale); 
 
-AutoScale(); //Масштабируем страницу после загрузки
+AutoScale(); 
 
-function AutoScale()
-{
-    let width = window.innerWidth; //Ширина окна
-    //Если вы хотите проверять по размеру экрана, то вам нужно свойство window.screen.width
+function AutoScale() {
+    let width = window.innerWidth; 
+    
 
-    if(width > 1280)
-    {
-   	 ChangeScale("big");
+    if (width > 1280) {
+        ChangeScale("big");
     }
-    else if(width <= 1280 && width > 720)
-    {
-   	 ChangeScale("normal");
+    else if (width <= 1280 && width > 720) {
+        ChangeScale("normal");
     }
-    else if(width < 720)
-    {
-   	 ChangeScale("small");
+    else if (width < 720) {
+        ChangeScale("small");
     }
+}
