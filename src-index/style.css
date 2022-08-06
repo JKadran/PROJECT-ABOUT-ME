@@ -87,7 +87,7 @@ h6 {
   margin-top: 28px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 900px){
   img.projects-img-fluid  {
     display:center;
   }
@@ -103,12 +103,18 @@ h6 {
     margin-bottom: 30px;
     justify-content: center;
   }
+ 
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+ 
   .projects-p {
-    text-align:justify;
+    text-align: center;
     font-size: 13px;
   }
-  img {
-    display: none;
+  .projects-img-fluid  {
+   display: none;
   }
 }
-
